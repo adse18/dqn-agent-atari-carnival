@@ -1,8 +1,17 @@
-# dqn-agent-atari-carnival
-Reinforcement learning of a DQN-agent in OpenAI´s gymnasium environment "Atari Carnival"
+# DQN Agent for Atari Carnival
 
-The core of the repository is the jupyter notebook, the full notebook with all versions can be found at https://www.kaggle.com/code/skillinho/rl-project/notebook
+Reinforcement learning with a DQN agent in OpenAI's Gymnasium environment "Atari Carnival".
 
-Due to the fact that video rendering did not work in the kaggle notebook, a local installation was run in an anaconda environment with the weigths outputted by the notebook in kaggle. An example video is in the video folder.
+## Core Repository
 
-The other files can be used to set up an anaconda environment and create the video locally. There it is important to check for the python version as for 3.12 there appeared to be problems with handling gym environments.
+The core of the repository is the Jupyter Notebook. The full notebook with all versions and the development steps can be found at [Kaggle: RL Project Notebook](https://www.kaggle.com/code/skillinho/rl-project/notebook).
+
+## Video Rendering
+
+Due to issues with video rendering in the Kaggle notebook, a local installation was run in an Anaconda environment using the weights outputted by the notebook on Kaggle. An example video of the agent´s performance in the environment is available in the `video` folder.
+
+## Local Setup
+
+The other files in this repository can be used to set up an Anaconda environment and create the video locally. 
+
+**Important**: Check for the Python version, as there appeared to be problems handling Gym environments with Python 3.12.
